@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="lab.app.weather.palacios.alejandro.weatherapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        class="lab.app.weather.palacios.alejandro.weatherapp.FragmentA"
+        tools:layout="@layout/fragmenta" />
+    
+    <fragment
+        android:id="@+id/fragmentB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        class="lab.app.weather.palacios.alejandro.weatherapp.fragmentb"
+        tools:layout="@layout/fragmentb" />
+
+</LinearLayout>

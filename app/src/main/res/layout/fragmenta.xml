@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba el texto"/>
+    
+    <Button
+        android:id="@+id/boton"
+        android:text="Aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 C"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/temp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconday"
+        android:src="@drawable/cloud"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lluvia"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tempestado"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min: 21 C"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/mintemp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min: 26 C"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/maxtemp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salida del sol: 5 AM"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/salsol"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puesta del sol: 5:30 PM"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/puessol"
+        android:visibility="invisible"/>
+
+</LinearLayout>
